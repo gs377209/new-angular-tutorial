@@ -1,7 +1,7 @@
 {
   "name": "@gs377209/new-angular-tutorial",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "angular tutorial",
   "keywords": [
     "ng",
