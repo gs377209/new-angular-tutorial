@@ -20,7 +20,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "json-server": "json-server db.json"
+    "json-server": "json-server db.json",
+    "serve": "npm run json-server & serve dist/first-app/browser -p 3001"
   },
   "dependencies": {
     "@angular/animations": "^19.2.6",
@@ -32,6 +33,7 @@
     "@angular/router": "^19.2.6",
     "json-server": "^1.0.0-beta.3",
     "rxjs": "~7.8.0",
+    "serve": "^14.2.4",
     "tslib": "^2.3.0",
     "zone.js": "^0.15.0"
   },
